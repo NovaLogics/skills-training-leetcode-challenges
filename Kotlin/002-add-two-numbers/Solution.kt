@@ -59,8 +59,8 @@ fun main() {
     n4.next = n5
     n5.next = n6
 
-    val outputArray = Solution().addTwoNumbers(n1, n4)
-    printLinkedList(outputArray)
+    val output = Solution().addTwoNumbers(n1, n4)
+    printLinkedList(output)
 }
 
 // ----------------------------------------------------------------
