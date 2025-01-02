@@ -16,7 +16,7 @@ class Solution {
     }
 }
 
-//----------------------------------------------------------------
+//------------------------ TEST CASES -------------------------------
 
 fun printResult(nums: IntArray, target: Int) {
     val outputArray = Solution().twoSum(nums, target)
@@ -32,10 +32,5 @@ fun main() {
 
     printResult(intArrayOf(3, 3), 6)
 }
-
-/*
-kotlinc Solution.kt -include-runtime -d Solution.jar
-java -jar Solution.jar
-*/
 
 //----------------------------------------------------------------
